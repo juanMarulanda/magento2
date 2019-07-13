@@ -103,7 +103,7 @@ define(
 				var amount = '';
 				var totals = quote.getTotals();
 				console.log(totals._latestValue.grand_total);
-				amount = totals._latestValue.grand_total;
+				amount = totals._latestValue.base_grand_total;
 				var data={
 					//Parametros compra (obligatorio)
 					name: items,
